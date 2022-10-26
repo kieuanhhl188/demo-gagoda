@@ -1,0 +1,43 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap');
+
+:root {
+    --tw-bg-opacity: 1;
+    --tw-border-opacity: 0.1;
+
+    --gray: rgba(243, 244, 246, var(--tw-bg-opacity));
+    --default-color: rgba(249, 250, 251, var(--tw-bg-opacity));
+    --text-black: rgba(55, 65, 81, var(--tw-bg-opacity));
+    --text-white: rgba(255, 255, 255, var(--tw-bg-opacity));
+
+    --default-layout-header-height: 115px;
+    --default-layout-width: 1920px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0 solid;
+}
+
+html {
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    color: var(--text-black);
+}
+
+button, input, [tabindex] {
+    outline: none; // bỏ outline bao quanh input
+    border: none;
+}
+
+a[href] {
+    color: var(--text-black);
+    text-decoration: none; // bỏ gạch chân
+}

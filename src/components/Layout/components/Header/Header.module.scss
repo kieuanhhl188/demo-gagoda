@@ -1,0 +1,50 @@
+.wrapper {
+    width: 100%;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    height: var(--default-layout-header-height, 115px); // ko khai báo biến thì lấy mặc định là 60px
+    display: flex;
+    justify-content: center;
+
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.inner {
+    height: 100%;
+    width: var(--default-layout-width);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar {
+    height: 68px;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    display: flex;
+
+    .logo-h3d {
+        width: 8rem;
+    }
+}
+.item-between {
+    margin-left: 2.5rem;
+    
+    .button-all {
+        position: relative;
+    }
+}
+
+.list-nav {
+    display: flex;
+    height: 46px;
+
+    .list-cate {
+        display: flex;
+        position: relative;
+    }
+    .other-list {
+        display: flex;
+        border-color: rgba(0, 0, 0, var(--tw-border-opacity));
+        border-left-width: 1px;
+    }
+}
